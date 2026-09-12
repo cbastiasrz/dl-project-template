@@ -1,0 +1,12 @@
+# All parameters for preprocessing, training and evaluation of a model.
+
+seed: 42            # seed for reproducibility
+
+data:               # data paths
+  raw:
+  train:
+  holdout:
+
+features:           # preprocessing params
+
+model:              # model params

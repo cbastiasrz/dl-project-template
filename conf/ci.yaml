@@ -1,0 +1,2 @@
+# Only for CI purposes, when pull request is created this files test with a small
+# sample that the end to end training still works.
