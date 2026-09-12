@@ -2,7 +2,8 @@
 
 The folder structure is the following:
 
-ml-churn/
+```text
+dl-project-template/
 ├── pyproject.toml        # the wish
 ├── uv.lock               # the answer
 ├── Makefile              # the verbs
@@ -11,7 +12,7 @@ ml-churn/
 ├── conf/
 │   ├── base.yaml         # all parameters and paths
 │   └── ci.yaml           # small overrides for CI
-├── src/churn/
+├── src/dl-project-template/
 │   ├── config.py         # load YAML into a typed object
 │   ├── data.py           # ingest and split
 │   ├── features.py       # transforms
@@ -19,5 +20,6 @@ ml-churn/
 │   └── evaluate.py
 ├── tests/
 ├── notebooks/            # imports from src, defines nothing
-├── data/                 # git-ignored; DVC manages it in phase 2
+├── data/                 # git-ignored;
 └── README.md
+```
